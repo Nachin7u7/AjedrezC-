@@ -2,9 +2,9 @@
 
 namespace helloWorld
 {
-	public class Reina:PiezaAjedrez
+	public class Reina//:PiezaAjedrez
 	{
-		public Reina ()
+		public Reina ()//: base(mov,comidas,posX,posY,color)
 		{
 		}
 	}

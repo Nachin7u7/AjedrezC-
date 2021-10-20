@@ -2,11 +2,11 @@
 
 namespace helloWorld
 {
-	public class Torre:PiezaAjedrez
+	public class Torre//:PiezaAjedrez
 	{
 		bool enroque;
 
-		public Torre (bool enroque):base()
+		public Torre (bool enroque)//:base(mov,comidas,posX,posY,color)
 		{
 
 			this.enroque = enroque;

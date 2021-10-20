@@ -6,8 +6,10 @@ namespace helloWorld
 	{
 		bool peon;
 
-		public Peon (bool peon) : base()
+		public Peon (int mov,int comidas,int posX, int posY, string color, bool peon) //:base(mov,comidas,posX,posY,color)
 		{
+			this.posX = posX;
+			this.posY = posY;
 			this.peon = peon;
 			//super()
 		}
@@ -18,6 +20,7 @@ namespace helloWorld
 		void setPeon(bool newPeon){
 			peon = newPeon;
 		}
+
 	}
 }
 

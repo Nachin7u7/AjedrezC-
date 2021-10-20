@@ -2,15 +2,18 @@
 
 namespace helloWorld
 {
-	 public class PiezaAjedrez //TODO
+	public abstract class PiezaAjedrez //TODO
 	{
 
-		string color; // comienza como Null 
-		int posX;
-		int posY;
-		int mov;
-		int comidas;
+		public string color; // comienza como Null 
+		public int posX;
+		public int posY;
+		public int mov;
+		public string name;
+		public int comidas;
 		 // posicion, color
+
+		//public PiezaAjedrez(int mov, int comidas, int posX, int poxY, string color);
 
 		string getColor(){
 			return color;
@@ -20,18 +23,18 @@ namespace helloWorld
 			color= newColor; // this.
 		}
 
-		int getPosX(){
+		public int getPosX(){
 			return posX;
 		}
 
-		int getPosY(){
+		public int getPosY(){
 			return posY;
 		}
 
-		void setPosX(int newX){
+		public void setPosX(int newX){
 			posX = newX;
 		}
-		void setPosY(int newY){
+		public void setPosY(int newY){
 			posY = newY;
 		}
 
@@ -45,6 +48,13 @@ namespace helloWorld
 
 		int getComidas(){
 			return comidas;
+		}
+
+		public string getName(){
+			return name;
+		}
+		public void setName(string newName){
+			name = newName;
 		}
 
 		void setComidas(int newComidas){

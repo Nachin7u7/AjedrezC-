@@ -2,10 +2,10 @@
 
 namespace helloWorld
 {
-	public class Rey:PiezaAjedrez
+	public class Rey//:PiezaAjedrez
 	{
 		bool rey;
-		public Rey (bool rey)
+		public Rey (bool rey)//: base(mov,comidas,posX,posY,color)
 		{
 			this.rey = rey;
 		}

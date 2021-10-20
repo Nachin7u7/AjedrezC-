@@ -2,9 +2,9 @@
 
 namespace helloWorld
 {
-	public class Alfil:PiezaAjedrez
+	public class Alfil//:PiezaAjedrez
 	{
-		public Alfil ():base()
+		public Alfil ()//: base(mov,comidas,posX,posY,color)
 		{
 
 		}
