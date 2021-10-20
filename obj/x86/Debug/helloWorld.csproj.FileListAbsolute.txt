@@ -1,0 +1,4 @@
+C:\Users\RYZEN\Documents\Projects\ProjectsCS\helloWorld\helloWorld\bin\Debug\helloWorld.exe
+C:\Users\RYZEN\Documents\Projects\ProjectsCS\helloWorld\helloWorld\bin\Debug\helloWorld.pdb
+C:\Users\RYZEN\Documents\Projects\ProjectsCS\helloWorld\helloWorld\obj\x86\Debug\helloWorld.exe
+C:\Users\RYZEN\Documents\Projects\ProjectsCS\helloWorld\helloWorld\obj\x86\Debug\helloWorld.pdb
