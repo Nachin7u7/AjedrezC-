@@ -35,9 +35,15 @@ namespace helloWorld
 
 
 
+
+
 			Console.WriteLine(pb1.getPosX() +" "+ pb1.getPosY());
 
 			tablero.setPiece(pb1); 
+			tablero.preguntarDestino (pb1, "5A");
+
+			Console.WriteLine(pb1.getPosX() +" "+ pb1.getPosY());
+
 
 			pb1.setName ("Pucho");
 
