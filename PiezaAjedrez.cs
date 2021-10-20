@@ -2,14 +2,14 @@
 
 namespace helloWorld
 {
-	 public class  PiezaAjedrez //TODO
+	 public class PiezaAjedrez //TODO
 	{
 
 		string color; // comienza como Null 
 		int posX;
 		int posY;
 		int mov;
-		int Comidas;
+		int comidas;
 		 // posicion, color
 
 		string getColor(){
@@ -37,12 +37,10 @@ namespace helloWorld
 
 		void setMov(int newMov){
 			mov = newMov;
-		}int getMov(){
-			return mov;
 		}
 
-		void setMov(int newMov){
-			mov = newMov;
+		int getMov(){
+			return mov;
 		}
 
 		int getComidas(){

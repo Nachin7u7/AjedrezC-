@@ -40,6 +40,9 @@
     <Compile Include="Torre.cs" />
     <Compile Include="Caballo.cs" />
     <Compile Include="Alfil.cs" />
+    <Compile Include="Reina.cs" />
+    <Compile Include="Rey.cs" />
+    <Compile Include="Tablero.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
